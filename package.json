@@ -1,10 +1,10 @@
 {
   "name": "http-client-retry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HTTP client package for Typescript projects.",
   "homepage": "https://github.com/ryanwhitwell/nodejs.http-client.retry",
   "author": "Ryan Whitwell",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/ryanwhitwell/nodejs.http-client.retry.git"
