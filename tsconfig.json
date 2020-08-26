@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "sourceMap": false,
+    "inlineSourceMap": true,
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata":true,
+    "strictPropertyInitialization": false,
+    "watch": false,
+    "declaration": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "lib": [      
+      "es6"
+    ],
+    "types": [
+      "reflect-metadata",
+      "node",
+      "jest",
+      "request-promise-native",
+      "request",
+      "uuid"
+    ],
+    "typeRoots": [
+      "./typings",
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "src/**/*",
+    "typings/**/*"
+  ],
+  "exclude": [
+    "node_modules/**/*"
+  ]
+}

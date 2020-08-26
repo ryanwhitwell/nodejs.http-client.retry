@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Unit Tests",
+      "env": {
+        "NODE_ENV": "debug"
+      },
+      "preLaunchTask": "tsc-build",
+      "sourceMaps": true,
+      "program": "${workspaceRoot}/node_modules/jest/bin/jest.js",
+      "restart": false,
+      "args": [
+        "--config",
+        "${workspaceRoot}/jest.config.json"
+      ],
+      "outFiles": [
+        "${workspaceRoot}/lib/**/*"
+      ],
+      "internalConsoleOptions": "neverOpen",
+      "console": "integratedTerminal",
+    }
+  ]
+}

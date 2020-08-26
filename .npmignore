@@ -1,0 +1,11 @@
+.gitignore
+.git/
+tests/
+src/
+app.code-workspace
+tslint.json
+tsconfig.json
+lib/code-coverage/
+lib/test/
+test-report.json
+coverage/
